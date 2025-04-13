@@ -1,0 +1,12 @@
+Data Type Mismatch 
+1. Balance, EstimatedSalary (float)
+2. Hascrcard (0,1)
+3. Isactivemember(0,1)
+4.geography, gender(convert to string)
+5. age (should float or int)
+
+
+
+
+Drop Columns
+CustomerID, Surname => to protect PII info
