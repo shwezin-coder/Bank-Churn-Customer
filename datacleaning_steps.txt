@@ -9,4 +9,11 @@ Data Type Mismatch
 
 
 Drop Columns
-CustomerID, Surname => to protect PII info
+CustomerID, Surname => to protect PII 
+
+
+Hypothesis Test Reading
+https://datatab.net/tutorial/mann-whitney-u-test
+https://www.6sigma.us/six-sigma-in-focus/levenes-test/
+https://www.cuemath.com/t-test-formula/
+
