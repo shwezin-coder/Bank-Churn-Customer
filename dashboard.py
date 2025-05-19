@@ -21,7 +21,7 @@ def number_format(number):
 
 def line_chart(x,y,chart_title=''):
     fig = go.Figure()
-    fig.add_trace(go.Scatter(x=x,y=y,text=y,mode="lines+markers+text",textposition='top right',hoverinfo='skip'))
+    fig.add_trace(go.Scatter(x=x,y=y,text=y,mode="lines+markers+text",textposition='top right',hoverinfo='skip',line=dict(color='skyblue')))
     fig.update_layout(title=chart_title,xaxis_title='',yaxis_title='',yaxis= dict(showticklabels=False,showgrid=False))
     st.plotly_chart(fig,use_container_width=True)
 
@@ -34,7 +34,7 @@ def stack_bar_chart(data,color_map,chart_title='',showlegend=True):
 
 def bar_chart(x,y,chart_title=''):
     fig = go.Figure()
-    fig.add_trace(go.Bar(x=x,y=y,text=y,hoverinfo='skip'))
+    fig.add_trace(go.Bar(x=x,y=y,text=y,hoverinfo='skip',marker_color='skyblue'))
     fig.update_layout(title=chart_title,xaxis_title='',yaxis_title='',yaxis= dict(showticklabels=False,showgrid=False))
     st.plotly_chart(fig,use_container_width=True)
 
