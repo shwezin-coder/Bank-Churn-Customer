@@ -56,7 +56,8 @@ def render_filter(df,filter_columns,filter_layout = None):
     column_iter = iter(filter_layout) if filter_layout else None
     active_status_display = {'active':1,'inactive':0}
     churn_status_display = {'churner':1,'non churner':0}
-    tenure_display = {x: f"{x} year" if x == 1 else f"{x} years" for x in sorted(df['tenure'].unique())}
+    tenure_display = {f"{x} year" if x == 1 else f"{x} years": x for x in sorted(df['tenure'].unique())}
+
     filter_values = {}
     for fc in filter_columns:
         with next(column_iter) if column_iter else st.container():
