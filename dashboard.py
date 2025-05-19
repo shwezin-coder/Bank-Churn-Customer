@@ -56,11 +56,12 @@ def render_filter(df,filter_columns,filter_layout = None):
     column_iter = iter(filter_layout) if filter_layout else None
     active_status_display = {'active':1,'inactive':0}
     churn_status_display = {'churner':1,'non churner':0}
+    tenure_display = {x: f"{x} year" if x == 1 else f"{x} years" for x in sorted(df['tenure'].unique())}
     filter_values = {}
     for fc in filter_columns:
         with next(column_iter) if column_iter else st.container():
             if fc == 'tenure':
-                filter_values['tenure'] = st.selectbox('Select Tenure',['all']+df['tenure'].unique().tolist())
+                filter_values['tenure'] = st.selectbox('Select Tenure',['all']+ list(tenure_display.keys()))
             elif fc == 'geography':
                 filter_values['geography'] = st.selectbox('Select Geography',['all']+df['geography'].unique().tolist())
             elif fc == 'gender':
@@ -84,6 +85,8 @@ def render_filter(df,filter_columns,filter_layout = None):
         filtered_df = df.copy()
 
     for col,selected_value in filter_values.items():
+        if col == 'tenure':
+            selected_value = tenure_display.get(selected_value,selected_value)
         if col == 'isactivemember':
             selected_value = active_status_display.get(selected_value,selected_value)
         if col == 'exited':
