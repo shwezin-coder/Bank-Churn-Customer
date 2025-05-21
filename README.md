@@ -1,7 +1,3 @@
-You got it\! This is the most current and complete GitHub README in Markdown format for your Bank Churn Analysis project, tailored to your specific folder structure and details.
-
------
-
 # Bank Customer Churn Prediction & Targeted Retention Strategies
 
 ## Table of Contents
