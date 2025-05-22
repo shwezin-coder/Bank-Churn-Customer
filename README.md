@@ -1,27 +1,4 @@
 # Bank Customer Churn Prediction & Targeted Retention Strategies
-
-## Table of Contents
-
-1.  [Introduction](https://www.google.com/search?q=%231-introduction)
-2.  [Project Goal](https://www.google.com/search?q=%232-project-goal)
-3.  [Technologies Used](https://www.google.com/search?q=%233-technologies-used)
-4.  [Approach & Key Contributions](https://www.google.com/search?q=%234-approach--key-contributions)
-      * [1. Data Acquisition & Initial Assessment](https://www.google.com/search?q=%231-data-acquisition--initial-assessment)
-      * [2. Comprehensive Data Cleaning & Preprocessing](https://www.google.com/search?q=%232-comprehensive-data-cleaning--preprocessing)
-      * [3. Exploratory Data Analysis (EDA) & Visualization](https://www.google.com/search?q=%233-exploratory-data-analysis-eda--visualization)
-      * [4. Statistical Analysis & Hypothesis Testing for Churn Drivers](https://www.google.com/search?q=%234-statistical-analysis--hypothesis-testing-for-churn-drivers)
-      * [5. Feature Engineering for Predictive Modeling](https://www.google.com/search?q=%235-feature-engineering-for-predictive-modeling)
-      * [6. Predictive Modeling & Detailed Churn Insights](https://www.google.com/search?q=%236-predictive-modeling--detailed-churn-insights)
-      * [7. Strategic Customer Segmentation & Actionable Recommendations](https://www.google.com/search?q=%237-strategic-customer-segmentation--actionable-recommendations)
-      * [8. Interactive Application Development & Deployment (Streamlit)](https://www.google.com/search?q=%238-interactive-application-development--deployment-streamlit)
-      * [Ethical Considerations & Future Steps](https://www.google.com/search?q=%23ethical-considerations--future-steps)
-5.  [Impact & Outcome](https://www.google.com/search?q=%235-impact--outcome)
-6.  [Live Demo](https://www.google.com/search?q=%236-live-demo)
-7.  [Installation & Usage](https://www.google.com/search?q=%237-installation--usage)
-8.  [Project Structure](https://www.google.com/search?q=%238-project-structure)
-9.  [Contributing](https://www.google.com/search?q=%239-contributing)
-10. [License](https://www.google.com/search?q=%2310-license)
-
 -----
 
 ## 1\. Introduction
