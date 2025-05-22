@@ -1,22 +1,22 @@
 # Bank Customer Churn Prediction & Targeted Retention Strategies
 -----
 
-## 1\. Introduction
+## Introduction
 
 This project addresses the critical business challenge of customer attrition within a banking institution. Customer churn significantly impacts profitability and customer lifetime value. The traditional reactive approach to churn management is inefficient; hence, there was a clear need for a proactive, predictive system.
 
-## 2\. Project Goal
+## Project Goal
 
 The primary objective was to leverage comprehensive data analysis, statistical validation, and machine learning to accurately predict customer churn, identify the underlying factors driving attrition, and develop actionable, data-driven strategies to improve customer retention and engagement.
 
-## 3\. Technologies Used
+## Technologies Used
 
   * **Programming Language:** Python
   * **Key Libraries:** Pandas, NumPy, Scikit-learn, SciPy, Seaborn, Matplotlib, Plotly
   * **Interactive Applications:** Streamlit
   * **Data Source:** Excel
 
-## 4\. Approach & Key Contributions
+## Approach & Key Contributions
 
 My approach followed a comprehensive data science pipeline, from meticulous data acquisition and rigorous cleaning to advanced modeling, insight generation, and interactive deployment:
 
@@ -102,20 +102,20 @@ My approach followed a comprehensive data science pipeline, from meticulous data
   * Maintained strict **PII compliance** and emphasized responsible data use at all stages of the project lifecycle.
   * Outlined clear next steps for the bank, including continuous monitoring of churn metrics, refinement of the predictive model (especially focusing on improving recall for missed churners), and tracking the effectiveness of segment-specific campaign effectiveness.
 
-## 5\. Impact & Outcome
+## Impact & Outcome
 
 This project provided the banking institution with a robust analytical framework and a user-friendly, interactive tool to proactively identify and engage at-risk customers. By translating complex data into actionable, statistically validated insights, it enabled the bank to optimize marketing and product development efforts, leading to more informed decisions that significantly improve customer retention, engagement, and overall profitability.
 
 -----
 
-## 6\. Live Demo
+## Live Demo
 
 Experience the interactive Streamlit application:
 https://bankchurnanalysis.streamlit.app/
 
 -----
 
-## 7\. Installation & Usage
+## Installation & Usage
 
 To run this project locally, follow these steps:
 
@@ -151,7 +151,7 @@ To run this project locally, follow these steps:
 
 The application will open in your web browser.
 
-## 8\. Project Structure
+## Project Structure
 
 ```
 BANK_CHURN_ANALYSIS/
@@ -169,10 +169,10 @@ BANK_CHURN_ANALYSIS/
 └── requirements.txt
 ```
 
-## 9\. Contributing
+## Contributing
 
 Feel free to fork this repository, open issues, or submit pull requests.
 
-## 10\. Contact
+## Contact
 For any questions or feedback, please contact Hnin Shwe Zin Hlaing at hninshwezinhlaing05062001@gmail.com.
 
