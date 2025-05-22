@@ -173,6 +173,6 @@ BANK_CHURN_ANALYSIS/
 
 Feel free to fork this repository, open issues, or submit pull requests.
 
-## 10\. Contributing
+## 10\. Contact
 For any questions or feedback, please contact Hnin Shwe Zin Hlaing at hninshwezinhlaing05062001@gmail.com.
 
