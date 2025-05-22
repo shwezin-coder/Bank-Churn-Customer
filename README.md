@@ -195,7 +195,3 @@ BANK_CHURN_ANALYSIS/
 ## 9\. Contributing
 
 Feel free to fork this repository, open issues, or submit pull requests.
-
-## 10\. License
-
-This project is licensed under the [Choose a License, e.g., MIT License] - see the [LICENSE.md](LICENSE.md) file for details.
